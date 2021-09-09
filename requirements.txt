@@ -1,1 +1,11 @@
-numpy==1.14.5
+numpy==1.18.5
+seaborn==0.10.1
+scipy==1.4.1              # via seaborn
+pandas==1.0.4
+pytz==2020.1              # via pandas
+matplotlib==3.2.1
+cycler==0.10.0            # via matplotlib
+kiwisolver==1.2.0         # via matplotlib
+pyparsing==2.4.7          # via matplotlib
+python-dateutil==2.8.1    # via matplotlib, pandas
+six==1.15.0               # via cycler, python-dateutil
